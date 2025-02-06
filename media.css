@@ -1,5 +1,8 @@
 @media (max-width : 412px) {
 
+    body{
+padding: 0;
+    }
     .page1 nav .navR a{
         display: none;
     }
