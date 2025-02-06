@@ -1,0 +1,66 @@
+@media (max-width : 412px) {
+
+    .page1 nav .navR a{
+        display: none;
+    }
+     nav .navR i{
+        display: initial;
+        font-size: 7vw;
+        color: aliceblue;
+        cursor: pointer;
+
+    }
+
+    .page1 .page1-inner{
+        display: block ;
+        line-height: 35px;
+
+    }
+    .page1 .page1-inner-left{
+        display: block ;
+        width: 100%;
+        padding: 20px 0;
+        height: 50%;
+
+    }
+   
+
+    .page1 .page1-inner-left p{
+        font-size: 17px;
+    }
+    
+    .page1 .page1-inner-left h1{
+        font-size: 40px;
+    }
+    .page1 .page1-inner-left h1 span{
+        font-size: 40px;
+    }
+    .page1-inner .page1-inner-left-btn button{
+        height: 5vh;
+    }
+    .page1-inner .page1-inner-left-btn .btn1 {
+        font-size: 13px;
+    }
+    .page1-inner .page1-inner-left-btn .btn2 {
+        font-size: 13px;
+    }
+
+    
+
+    .page1-inner .page1-inner-right{
+    height: 50%;
+        width: 100%;
+      
+    
+      
+    }
+    .page1-inner-right .robot img{
+        height: 32vh;
+        margin-top: 0;
+    
+      
+    }
+
+
+    
+}

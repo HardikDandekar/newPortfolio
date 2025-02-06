@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body {
+    width: 100%;
+    height: 100%;
+    
+    padding: 10px 20px;
+    background-color: rgb(36, 34, 34);
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.hardik{
+    font-size: 8vh;
+    color: rgb(192, 187, 187);
+    font-weight: 600;
+    
+}
+
+/* Page 1 */
+
+.page1{
+    width: 100%;
+    border-radius: 18px;
+    padding: 5px 10px;
+    background: linear-gradient(to right , #8c0118 , #68219a);
+    margin-bottom: 10vh;
+}
+
+
+.page1 nav{
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+
+
+}
+
+.page1 nav .navL img {
+    height: 3vw;
+
+}
+nav .navR {
+display: flex;
+    gap: 20px;
+
+}
+nav .navR i {
+    display: none;
+    
+    }
+
+.navL h1{
+    color: aliceblue;
+
+    font-size: 5vh;
+}
+.navR a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+.page1 .page1-inner{
+    display: flex ;
+    height:80vh;
+    line-height: 39px;
+}
+
+.page1-inner .page1-inner-left{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page1-inner-left-inn h1{
+    font-size: 4vw;
+}
+.page1-inner-left-inn p{
+    font-size: 1.7vw;
+}
+
+
+.page1-inner .page1-inner-left-btn{
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+
+}
+.page1-inner .page1-inner-left-btn .btn1{
+    padding: 0.8vw 2vw;
+    background-color: rgb(238, 89, 89);
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    font-size: 1.2vw;
+    cursor: pointer;
+ color: black;
+    font-weight: 400;
+  
+}
+.page1-inner .page1-inner-left-btn .btn2{
+    padding: 0.8vw 2vw;
+ background-color: rgb(44, 42, 42);
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    font-size: 1.2vw;
+    cursor: pointer;
+    color: rgb(192, 187, 187);
+    font-weight: 600;
+  
+}
+
+
+
+
+.page1-inner .page1-inner-right{
+    width: 40%;
+    height: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+  
+}
+
+.page1-inner-right .robot img{
+    height:50vh;
+    margin-top: 50px;
+}
