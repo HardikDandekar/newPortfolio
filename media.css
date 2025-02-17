@@ -69,11 +69,16 @@
 
 .page2 .page2-inner .about h1{
     font-size: 40px;
+
+}
+.page2 .page2-inner .intro{
+    padding: 0;
 }
 
 .page2 .page2-inner .intro p{
-    font-size: 50px;
-    font-size: 20px;
+    font-size: 19px;
+
+ 
     
   
 
@@ -93,7 +98,7 @@
  
 }
     .skills .skills-inner .sL{
-        height: 50%;
+        height: 55%;
         width: 100%;
         background-color: rgb(36, 34, 34);
         margin-bottom: 30px;
@@ -101,6 +106,10 @@
     }
     .skills .skills-inner .sL .sL-inn{
         text-align: start;
+    }
+
+    .skills .skills-inner .sL a{
+        font-size: 14px;
     }
 
     .skills .skills-inner .sR {
@@ -113,6 +122,78 @@
     .skills-inner .sR-inner .languages h4{
         font-size: 15px;
     }
+
+    .page3{
+        background-color: red;
+        height: 170vh;
+        padding: 0;
+       
+        
+    }
+    .page3 .page2-inner{
+        height: 90%;
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+       
+    }
+
+
+    .page3 .page2-inner .about h1{
+        font-size: 40px
+    }
+
+    .page3 .page2-inner .project{
+        width: 100%;
+    
+        margin-bottom: 30px;
+    }
+    .pLeft .pImg img{
+        height: 12vh;
+    }
+
+
+
+    .pRight .des #long {
+        display: none;
+    }
+    .pRight .des{
+        text-align: end;
+    }
+    .pRight .des h1{
+        font-size: 20px;
+        margin-bottom: 25px;
+    
+    }
+
+    .pRight .des #short-des {
+        display: initial;
+        width: 100%;
+        font-size: 10px;
+        line-height: 1px;
+       
+    }
+    .pRight .des #short-des p{
+        line-height: 5px;
+    }
+
+  .pRight .link{
+    width: 40vw;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+
+
+    }
+    .pRight .link a{
+        width: 100%;
+        padding: 5px 0;
+    
+    }
+
+
 
 
     

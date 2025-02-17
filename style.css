@@ -283,3 +283,77 @@ nav .navR i {
     justify-content: center;
     align-items: center;
 }
+
+
+
+/* page 3 */
+.page3{
+    width: 100%;
+    border-radius: 18px;
+    padding: 5px 50px;
+    background: linear-gradient(to right , #8c0118 , #68219a);
+    margin-bottom: 10vh;
+    height:210vh;
+}
+
+.project{
+    margin-top: 20px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    border: 2px solid rgb(36, 34, 34);
+    border-radius: 20px;
+}
+
+.project .pLeft{
+    /* background-color: rgb(36, 34, 34); */
+    width: 40%;
+    height: 100%;
+    padding: 25px 30px;
+}
+
+.pLeft .pImg img {
+    height: 25vh;
+}
+
+.pLeft h1{
+    color: rgb(192, 187, 187);
+    margin-top: 18px;
+    font-size: 34px;
+}
+
+
+
+.project .pRight{
+    /* background-color: rgb(49, 15, 15); */
+    width: 60%;
+    height: 100%;
+    padding: 25px 30px;
+}
+
+.pRight .des h1 {
+    color: rgb(192, 187, 187);
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.pRight .des  p{
+    color: rgb(158, 152, 152);
+    margin-bottom: 40px;
+}
+
+.pRight .des #short-des {
+    display: none;
+
+}
+
+.pRight .link a{
+    padding: 12px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+  color: beige;
+  background-color: rgb(36, 34, 34);
+}
+.pRight .link i{
+    margin-left: 8px;
+}
