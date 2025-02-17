@@ -125,7 +125,7 @@
 
     .page3{
         background-color: red;
-        height: 170vh;
+        height: 210vh;
         padding: 0;
        
         
@@ -170,7 +170,7 @@
         display: initial;
         width: 100%;
         font-size: 10px;
-        line-height: 1px;
+        line-height: 0;
        
     }
     .pRight .des #short-des p{
